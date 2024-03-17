@@ -7,7 +7,17 @@
 html {
   block-size: 100%;
 }
+:root{
+--white: #fff;
+--black:#000 ;
+--gray: #545050;
 
+--m-xl:32px;
+--m-xl:30px;
+--m-xl:26px;
+--m-xl:6px;
+--m-xl:5px;
+}
 .page {
   inline-size: 1200px;
   block-size: 100%;
@@ -35,4 +45,38 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.search-form{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.result__video{
+    min-width: 711px;
+    
+}
+.title{
+    font-family:Oswald;
+    font-size: 75px;
+    line-height: 94%;
+    text-transform: uppercase;
+}
+.content__accent{
+    color:var(--gray);
+}
+.content__list{
+    height: 298px;
+}
+.content__details{
+    gap:26px;
+    width: 400px;
 }
