@@ -5,3 +5,4 @@
     <video src="" controls class="result__video" muted autoplay loop poster=""></video>
 ``` 
 * Не разобраля с preloader и error как их разместить относительно result__video-container
+https://github.com/JbrtN-022/posmotri_v_okno.git
