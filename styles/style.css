@@ -271,12 +271,14 @@ height: 100%;
   border:var(--white) solid 1px ;
 }
 
+
 .button:focus-visible{
   outline: 1px solid var(--white);
   outline-offset: 2px;
 }
 .search-form__label:focus-visible{
   outline: 1px solid var(--white);
+  outline-offset: 2px;
 }
 /*///////////:hover////////////*/
 .content__card-link:hover {
