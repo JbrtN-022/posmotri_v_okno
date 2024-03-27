@@ -293,7 +293,7 @@ width: 62.37%;
   text-decoration:underline;
   text-decoration-color: var(--white);
   text-underline-offset: 5px;
- text-decoration-thickness:2px ;
+  text-decoration-thickness:2px ;
 }
 
 .button:hover{
