@@ -219,7 +219,10 @@ width: 62.37%;
 }
 
 .more-button{
-  padding: 6px 134px;
+  padding: 6px 132px;
+  position: relative;
+  left: 2px;
+  bottom: 1px;
 }
 
 .search-form__submit-button{
@@ -265,6 +268,10 @@ width: 62.37%;
 }
 
 /*///////////:focus////////////*/
+.content__card-link:focus, .button:focus{
+  outline: none;
+}
+
 .content__card-link:focus-visible{
   border:var(--white) solid 1px ;
   outline: none;
@@ -278,10 +285,6 @@ width: 62.37%;
 .search-form__label:has(:focus-visible){
   outline: 1px solid var(--white);
   outline-offset: 2px;
-}
-
-.content__card-link .button:focus{
-  outline: none;
 }
 
 .search-form__textfield:focus{
